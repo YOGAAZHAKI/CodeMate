@@ -15,7 +15,7 @@ graph TD
     A[GitHub Repo URL / Path] --> B[Ingestion Agent: Clone Repo]
     B --> C[Git Log & PR Extractor]
     B --> D[Code Chunker: AST & Brace-matching]
-    C --> E[Language Normalizer: Gemini 1.5 Flash]
+    C --> E[Language Normalizer: Gemini 2.5 Flash]
     D --> E
     E --> F[Combined Documents: Code + Comments + Commits]
     F --> G[Embedding Engine: paraphrase-multilingual-mpnet-base-v2]
