@@ -1,0 +1,20 @@
+# ChromaDB
+chroma_db/
+
+# Cloned repositories
+repos/
+
+# Scratch files
+scratch/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
