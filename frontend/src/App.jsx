@@ -20,7 +20,7 @@ import {
   Languages
 } from "lucide-react";
 
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "https://codemate-production-949a.up.railway.app";
 
 export default function App() {
   const [repoUrl, setRepoUrl] = useState("");
