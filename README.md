@@ -166,7 +166,11 @@ Submits a natural language question. Returns a grounded answer along with exact 
 ### 4. `GET /api/impact/{function_name}`
 Computes code linkages for a specific code identifier across files.
 * **Query Parameter**: `repo_url`
+## 🌐 Live Links
 
+- **Frontend:**[ https://your-vercel-app.vercel.app](https://code-mate-phi.vercel.app/)
+- **Backend:** https://codemate-production-949a.up.railway.app/
+- **API Docs:** https://codemate-production-949a.up.railway.app/docs
 ---
 
 ## 🌟 Premium UX Features Included
