@@ -18,4 +18,5 @@ os.makedirs(REPO_DIR, exist_ok=True)
 # API Keys and Models
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 EMBEDDING_MODEL_NAME = "paraphrase-multilingual-mpnet-base-v2"
-GEMINI_MODEL_NAME = "gemini-2.5-flash"
+GEMINI_MODEL_NAME = os.getenv("GEMINI_MODEL_NAME", "gemini-2.5-flash")
+
